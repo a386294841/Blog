@@ -1,0 +1,201 @@
+*{
+    padding: 0;
+    margin: 0;
+	list-style-type:none;
+}
+body{
+    background-color: #f5f7f9;
+}
+#topnav{
+    width:100%;
+    height:40px;
+    display: inline-block;
+	float:left;
+    position:fixed;
+	top:0;
+	background-color:#000;
+	z-index:2;
+	line-height:30px;
+    opacity:0.4;
+}
+#topnav a{
+    text-decoration: none;
+}
+#topnav ul
+{
+    float:right;
+}
+#topnav > ul > li{
+    width:100px;
+	height:40px;
+    list-style: none;
+	padding-left:20px;
+	padding-right:20px;
+	float:left;
+    position:relative;
+	margin-top:5px;
+}
+#topnav ul li{
+	text-align:center;
+}
+
+#topnav ul li a{
+    color:#fff;
+}
+#topnav ul li a:hover
+{
+    background-color: #fff;
+	color:#000;
+}
+
+.subli{
+	margin-top:5.5px;
+    position:absolute;
+	right:0;
+	height:350px;
+	line-height:35px;
+    display: none;
+}
+.subli li
+{
+	margin-top:0;
+	background-color:#000;
+    opacity: 0.8;
+	margin-left:-135px;
+
+}
+
+#topnav ul li:hover > .subli{
+    display: block;
+}
+
+#Timer{
+	position: absolute;
+	font-size:15px;
+	left:50px;
+	top:5px;
+	width:300px;
+	height:25px;
+	border: 0;
+	color:#fff;
+	background-color: #000;
+}
+h1{
+    color:#000;
+}
+.footer{
+    position: relative;
+	bottom:	5px;
+	color:#000;
+}
+#content{
+    margin-top: 60px;
+    height: auto;
+}
+#myself{
+    width:320px;
+    height:350px;
+    position: relative;
+    left:900px;
+    background-color: #fff;
+}
+#tuiwen{
+    width:750px;
+    position: relative;
+    left:100px;
+    top:-390px;
+}
+#tuiwen a{
+   color:#000;
+   text-decoration: none;
+}
+#tuiwen a:hover{
+    text-decoration: underline;
+}
+#tuiwen-1{
+    height: 450px;
+    background-color: #fff;
+    margin-top: 40px;
+}
+
+.neirong{
+    font-size: 18px;
+    font-weight: bold;
+    text-indent: 2.5em;
+    line-height: 40px;
+}
+#touxiang{
+    padding-left: 25px;
+    margin:0 auto;
+}
+#touxiang li {
+    float: left;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+#touxiang .txt {
+    background: rgba(0,0,0,0);
+    width: 250px;
+    height:50px;
+    position: absolute;
+    left: 0px;
+    bottom: 5px;
+}
+#touxiang p {
+    font-size: 14px;
+    padding-left: 50px;
+    color: #000;
+    margin-top: 50px;
+    font-family: "微软雅黑"
+}
+.back-to-top{
+    cursor: pointer;
+    width: 70px;
+    height: 900px;
+    background:url(../img/scroll.png);
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    transition: all .5s ease-in-out;
+    z-index: 1;
+}
+.icon{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    margin-left:38px;
+    border-radius: 100%;
+    background-color: #ccc;
+}
+.icon a{
+    color:#000;
+    padding-left: 7px;
+}
+.icon:hover{
+    background-color:#00ffff; 
+}
+.icon a:hover{
+    color:#fff;
+}
+.icono{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    margin-left:38px;
+    border-radius: 100%;
+    background-color: #ccc;
+}
+.icono a{
+    color:#000;
+    padding-left: 7px;
+}
+.icono:hover{
+    background-color:#000; 
+}
+.icono a:hover{
+    color:gold;
+}
